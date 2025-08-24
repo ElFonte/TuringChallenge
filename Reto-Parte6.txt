@@ -1,0 +1,7 @@
+Tengo experiencia con AKS
+Doy por supuesto que Kubernetes esta instalado, y se tiene acceso a kubectl
+El primer paso es conectar al AKS service. El azure portal da los comandos necesarios con todos sus parametros
+Comando para obtener el listado de nodos:
+kubectl get nodes
+Comando para listar todos los pods de todos los namespaces, usar el siguiente comando
+kubectl get pods --all-namespaces
